@@ -121,10 +121,11 @@
     font-size: medium;
     text-align: center;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .suscribetes {
-    width: 29%;
+    padding: 5px;
     height: 50px;
     justify-content: space-evenly;
     align-items: center;
@@ -203,7 +204,7 @@
     border-radius: 5px;
     font-size: medium;
     padding: 0;
-    margin-bottom: 200px;
+    margin-bottom: 10px;
     align-items: center;
     background-color: $naranja;
     color: white;

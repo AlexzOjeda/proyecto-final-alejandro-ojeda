@@ -169,10 +169,11 @@
   border: 1px black solid;
   font-size: medium;
   text-align: center;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin-bottom: 10px; }
 
 .suscribetes {
-  width: 29%;
+  padding: 5px;
   height: 50px;
   justify-content: space-evenly;
   align-items: center;
@@ -239,7 +240,7 @@
   border-radius: 5px;
   font-size: medium;
   padding: 0;
-  margin-bottom: 200px;
+  margin-bottom: 10px;
   align-items: center;
   background-color: #c29029;
   color: white; }
@@ -480,21 +481,18 @@
   color: white;
   font-weight: bold; }
 
-/* MEDIAS QUERY */
+  /* MEDIAS QUERY */
 /* dispositivos medianos */
 @media (max-width: 1110px) {
   .grid-container {
     display: flex;
     flex-direction: column; }
   .horario {
-    justify-content: space-evenly;
-    height: 80vh; } }
+    justify-content: space-evenly; } }
 
 @media (max-width: 992px) {
   .footer {
     flex-direction: column; }
-  .horario p {
-    width: auto; }
   iframe {
     width: 60%; }
   .header {
@@ -512,6 +510,23 @@
 @media (max-width: 500px) {
   .footerHorizontal {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .horario p {
+    width: auto; } }
 
 /* dispositivos pequeños */
+@media (max-width: 420px) {
+  .nombresContacto {
+    width: 300px; }
+  .correosContacto {
+    width: 300px; }
+  .mensajesContacto {
+    width: 300px; }
+  .reservaCabello {
+    width: 300px; }
+  .reservaTelefono {
+    width: 300px; } }
+
+@media (max-width: 350px) {
+  .nosotrosInformacion h2 {
+    font-size: 43px; } }

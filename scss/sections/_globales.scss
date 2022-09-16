@@ -19,7 +19,7 @@
 
     .horario {
         justify-content: space-evenly;
-        height: 80vh;
+
     }
 
 }
@@ -28,10 +28,6 @@
 @media (max-width: 992px) {
     .footer{
         flex-direction: column;
-    }
-
-    .horario p{
-        width: auto;
     }
 
     iframe {
@@ -66,6 +62,35 @@
         flex-direction: column;
     }
 
+    .horario p{
+        width: auto;
+    }
+
 }
 
 /* dispositivos pequeños */
+
+@media (max-width: 420px) {
+    .nombresContacto {
+        width: 300px;
+    }
+    .correosContacto {
+        width: 300px;
+    }
+    .mensajesContacto {
+        width: 300px;
+    }
+    .reservaCabello {
+        width: 300px;
+    }
+    .reservaTelefono {
+        width: 300px;
+    }
+}
+
+@media (max-width: 350px) {
+    .nosotrosInformacion h2{
+        font-size: 43px;
+    }
+
+}
